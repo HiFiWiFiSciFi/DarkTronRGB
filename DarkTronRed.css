@@ -336,9 +336,6 @@ ul.type-dropdown li:hover .type-downdown-label {
   padding: 20px;
   overflow: hidden;
   width: 100%;
-  -webkit-box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
--moz-box-shadow:    inset 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
-box-shadow:         inset 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
   clip-path: 
     polygon(
       10px 0px,
@@ -524,7 +521,10 @@ a.rantlist-comments {
 .rantlist-tags a:hover {
   color: #bc0a2f;
 }
-
+.is-rant .rantlist-tags-row a {
+  margin-bottom: 20px;
+  color: #bc0a2f;
+}
 /* Rant List Image */
 .rant-image {
   box-sizing: border-box;
